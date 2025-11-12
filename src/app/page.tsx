@@ -7,6 +7,7 @@ import { ImageGallery } from '@/components/gallery/image-gallery';
 import { BarProducts } from '@/components/products/bar-products';
 import { HouseRules } from '@/components/layout/house-rules';
 import { AboutUs } from '@/components/layout/about-us';
+import { Map } from '@/components/layout/map';
 
 export default function Home() {
   return (
@@ -30,8 +31,11 @@ export default function Home() {
           <section id="social" className="border-t py-16 md:py-24">
             <SocialFeed />
           </section>
-          <section className="border-t py-16 md:py-24">
+          <section id="gallery" className="border-t py-16 md:py-24">
             <ImageGallery />
+          </section>
+          <section id="location" className="border-t py-16 md:py-24">
+            <Map />
           </section>
         </div>
       </main>

@@ -42,6 +42,12 @@ export function Header() {
           >
             Galeria
           </Link>
+           <Link
+            href="#location"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Localização
+          </Link>
         </nav>
         <div className="flex flex-1 items-center justify-end gap-2">
           <Button>Entrar em contato</Button>
