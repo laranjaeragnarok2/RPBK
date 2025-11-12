@@ -11,16 +11,24 @@ const Logo = () => (
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
-          <Logo />
-        </Link>
-        <nav className="hidden md:flex items-center gap-4 text-sm lg:gap-6">
+      <div className="container flex h-16 items-center">
+        <div className="md:flex-1">
+          <Link href="/" className="flex items-center gap-2">
+            <Logo />
+          </Link>
+        </div>
+        <nav className="hidden md:flex flex-1 justify-center items-center gap-4 text-sm lg:gap-6">
           <Link
             href="#events"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
             Eventos
+          </Link>
+          <Link
+            href="#about"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Quem Somos
           </Link>
           <Link
             href="#rules"
@@ -41,7 +49,7 @@ export function Header() {
             Galeria
           </Link>
         </nav>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-1 items-center justify-end gap-2">
           <Button>Entrar em contato</Button>
         </div>
       </div>

@@ -6,6 +6,7 @@ import { SocialFeed } from '@/components/social/social-feed';
 import { ImageGallery } from '@/components/gallery/image-gallery';
 import { BarProducts } from '@/components/products/bar-products';
 import { HouseRules } from '@/components/layout/house-rules';
+import { AboutUs } from '@/components/layout/about-us';
 
 export default function Home() {
   const futureDate = new Date();
@@ -17,7 +18,10 @@ export default function Home() {
       <main className="flex-1">
         <HeroSlider />
         <div className="container mx-auto px-4">
-          <section className="py-16 md:py-24">
+          <section id="about" className="py-16 md:py-24">
+            <AboutUs />
+          </section>
+          <section className="border-t py-16 md:py-24">
             <FeaturedEventCountdown targetDate={futureDate} />
           </section>
           <section className="border-t py-16 md:py-24">
