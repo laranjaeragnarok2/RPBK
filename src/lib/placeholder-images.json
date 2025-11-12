@@ -105,19 +105,19 @@
     {
       "id": "product-1",
       "description": "Um coquetel colorido e fumegante em um copo elegante.",
-      "imageUrl": "https://images.unsplash.com/photo-1551024709-8f23eda2c5a5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1551024709-8f23eda2c5a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYW5jeSUyMGNvY2t0YWlsfGVufDB8fHx8MTc2MzA3MzQyOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "fancy cocktail"
     },
     {
       "id": "product-2",
       "description": "Uma caneca de cerveja artesanal gelada com um fundo de bar.",
-      "imageUrl": "https://images.unsplash.com/photo-1588791360158-a5de4c8397a2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1588791360158-a5de4c8397a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjcmFmdCUyMGJlZXJ8ZW58MHx8fHwxNzYzMDczNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "craft beer"
     },
     {
       "id": "product-3",
       "description": "Uma porção de petiscos de bar, como batatas fritas e anéis de cebola.",
-      "imageUrl": "https://images.unsplash.com/photo-1606756790139-939d899BC152?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageUrl": "https://images.unsplash.com/photo-1606756790139-939d899BC152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXIlMjBzbmFja3N8ZW58MHx8fHwxNzYzMDczNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bar snacks"
     }
   ]
