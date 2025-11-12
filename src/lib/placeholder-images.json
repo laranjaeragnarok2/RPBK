@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-1",
-      "description": "DJ em um show lotado com luzes vibrantes",
-      "imageUrl": "https://images.unsplash.com/photo-1698153782147-07bb858d5232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb25jZXJ0JTIwZGp8ZW58MHx8fHwxNzYyOTU1MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "concert dj"
+      "description": "Interior de um bar rústico com banquetas e letreiros de neon.",
+      "imageUrl": "https://storage.googleapis.com/stately-smile-334316-prod/app_protopyer_uploads/36e053f3-018f-43b8-80f4-90518335439c.jpg",
+      "imageHint": "rustic bar"
     },
     {
       "id": "hero-2",
