@@ -31,7 +31,7 @@ export function FeaturedEventCountdown({ targetDate }: { targetDate: Date }) {
       return { days: 0, hours: 0, minutes: 0, seconds: 0 };
     };
 
-    // Set initial time on client
+    // Set initial time on client to avoid hydration mismatch
     setTimeLeft(calculateTimeLeft());
 
     const timer = setInterval(() => {
@@ -43,22 +43,22 @@ export function FeaturedEventCountdown({ targetDate }: { targetDate: Date }) {
 
   return (
     <div className="w-full max-w-4xl mx-auto text-center">
-      <h2 className="font-headline text-3xl md:text-4xl font-bold mb-2">Featured Event: NEON DREAMS</h2>
-      <p className="text-lg text-muted-foreground mb-8">The countdown has begun. Don't miss the party of the year!</p>
+      <h2 className="font-headline text-3xl md:text-4xl font-bold mb-2">Evento em Destaque: SONHOS DE NEON</h2>
+      <p className="text-lg text-muted-foreground mb-8">A contagem regressiva começou. Não perca a festa do ano!</p>
       <div className="flex justify-center gap-4 md:gap-8">
         {timeLeft ? (
           <>
-            <CountdownItem value={timeLeft.days} label="Days" />
-            <CountdownItem value={timeLeft.hours} label="Hours" />
-            <CountdownItem value={timeLeft.minutes} label="Minutes" />
-            <CountdownItem value={timeLeft.seconds} label="Seconds" />
+            <CountdownItem value={timeLeft.days} label="Dias" />
+            <CountdownItem value={timeLeft.hours} label="Horas" />
+            <CountdownItem value={timeLeft.minutes} label="Minutos" />
+            <CountdownItem value={timeLeft.seconds} label="Segundos" />
           </>
         ) : (
           <>
-            <CountdownItem value={0} label="Days" />
-            <CountdownItem value={0} label="Hours" />
-            <CountdownItem value={0} label="Minutes" />
-            <CountdownItem value={0} label="Seconds" />
+            <CountdownItem value={0} label="Dias" />
+            <CountdownItem value={0} label="Horas" />
+            <CountdownItem value={0} label="Minutos" />
+            <CountdownItem value={0} label="Segundos" />
           </>
         )}
       </div>

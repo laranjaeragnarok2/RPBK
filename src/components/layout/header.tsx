@@ -8,14 +8,14 @@ export function Header() {
       <div className="container flex h-14 items-center">
         <Link href="/" className="mr-6 flex items-center gap-2">
           <Activity className="h-6 w-6 text-primary neon-icon" />
-          <span className="font-headline text-lg font-bold">Nightlife Pulse</span>
+          <span className="font-headline text-lg font-bold">Pulso da Noite</span>
         </Link>
         <nav className="flex items-center gap-4 text-sm lg:gap-6">
           <Link
             href="#events"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
-            Events
+            Eventos
           </Link>
           <Link
             href="#social"
@@ -27,11 +27,11 @@ export function Header() {
             href="#gallery"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
-            Gallery
+            Galeria
           </Link>
         </nav>
         <div className="ml-auto flex items-center gap-2">
-           <Button>Get Tickets</Button>
+           <Button>Comprar Ingressos</Button>
         </div>
       </div>
     </header>

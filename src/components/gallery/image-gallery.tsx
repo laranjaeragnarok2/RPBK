@@ -7,8 +7,8 @@ export function ImageGallery() {
   return (
     <section id="gallery" className="w-full">
       <div className="mb-8 text-center">
-        <h2 className="font-headline text-3xl md:text-4xl font-bold">Event Gallery</h2>
-        <p className="text-lg text-muted-foreground">Moments we've captured.</p>
+        <h2 className="font-headline text-3xl md:text-4xl font-bold">Galeria de Eventos</h2>
+        <p className="text-lg text-muted-foreground">Momentos que capturamos.</p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {galleryImages.map((image, index) => (

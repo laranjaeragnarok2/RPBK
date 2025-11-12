@@ -10,19 +10,19 @@ const feedItems = [
   {
     user: 'DJ_Vortex',
     avatar: avatarImages.find(i => i.id === 'avatar-1'),
-    content: 'Just dropped a new mix! 🔥 The energy last night was insane. Can\'t wait to see you all at Neon Dreams!',
+    content: 'Acabei de lançar um novo mix! 🔥 A energia ontem à noite foi insana. Mal posso esperar para ver todos vocês no Sonhos de Neon!',
     image: socialImages.find(i => i.id === 'social-2')
   },
   {
-    user: 'PartyAnimal_99',
+    user: 'Festeiro_99',
     avatar: avatarImages.find(i => i.id === 'avatar-2'),
-    content: 'The rooftop views at Midnight Bloom are going to be epic. Who\'s coming?',
+    content: 'As vistas do terraço no Flor da Meia-Noite serão épicas. Quem vem?',
     image: socialImages.find(i => i.id === 'social-1')
   },
   {
     user: 'MixMasterMike',
     avatar: avatarImages.find(i => i.id === 'avatar-3'),
-    content: 'Getting the bar ready for the Liquid Gold festival. Some amazing cocktails are coming your way! 🍹',
+    content: 'Preparando o bar para o festival Ouro Líquido. Coquetéis incríveis estão a caminho! 🍹',
     image: socialImages.find(i => i.id === 'social-3')
   }
 ];
@@ -31,8 +31,8 @@ export function SocialFeed() {
   return (
     <section id="social" className="w-full">
       <div className="mb-8 text-center">
-        <h2 className="font-headline text-3xl md:text-4xl font-bold">From The Scene</h2>
-        <p className="text-lg text-muted-foreground">Real-time updates from our community.</p>
+        <h2 className="font-headline text-3xl md:text-4xl font-bold">Da Cena</h2>
+        <p className="text-lg text-muted-foreground">Atualizações em tempo real da nossa comunidade.</p>
       </div>
       <div className="grid md:grid-cols-3 gap-6">
         {feedItems.map((item, index) => (

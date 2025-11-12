@@ -15,37 +15,37 @@ const heroImages = PlaceHolderImages.filter((img) => img.id.startsWith('hero-'))
 
 const events = [
   {
-    title: 'Neon Dreams: The Ultimate Rave',
-    date: 'Saturday, August 17, 2024',
+    title: 'Sonhos de Neon: A Rave Suprema',
+    date: 'Sábado, 17 de Agosto de 2024',
     image: heroImages.find(i => i.id === 'hero-1'),
   },
   {
-    title: 'Midnight Bloom: Rooftop Party',
-    date: 'Friday, August 23, 2024',
+    title: 'Flor da Meia-Noite: Festa no Terraço',
+    date: 'Sexta-feira, 23 de Agosto de 2024',
     image: heroImages.find(i => i.id === 'hero-2'),
   },
   {
-    title: 'Warehouse Echoes: Deep House Night',
-    date: 'Saturday, September 7, 2024',
+    title: 'Ecos do Armazém: Noite de Deep House',
+    date: 'Sábado, 7 de Setembro de 2024',
     image: {
       id: 'hero-4',
       imageUrl: 'https://images.unsplash.com/photo-1516999654410-4925a65c9533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwY2x1YnxlbnwwfHx8fDE3NjMwMDYxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      description: 'Dancers in a vast, atmospheric industrial warehouse club with moody lighting.',
+      description: 'Dançarinos em um vasto e atmosférico clube de armazém industrial com iluminação temperamental.',
       imageHint: 'industrial club'
     }
   },
   {
-    title: 'Liquid Gold: Cocktail Festival',
-    date: 'Sunday, September 1, 2024',
+    title: 'Ouro Líquido: Festival de Coquetéis',
+    date: 'Domingo, 1 de Setembro de 2024',
     image: heroImages.find(i => i.id === 'hero-3'),
   },
   {
-    title: 'Sunset Grooves: Beach Party',
-    date: 'Saturday, September 14, 2024',
+    title: 'Ritmos do Pôr do Sol: Festa na Praia',
+    date: 'Sábado, 14 de Setembro de 2024',
     image: {
       id: 'hero-5',
       imageUrl: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHBhcnR5fGVufDB8fHx8MTc2MzAwNjE4Nnww&ixlib=rb-4.1.0&q=80&w=1080',
-      description: 'People dancing on a beach at sunset with a DJ booth.',
+      description: 'Pessoas dançando em uma praia ao pôr do sol com uma cabine de DJ.',
       imageHint: 'beach party'
     }
   }
@@ -82,7 +82,7 @@ export function HeroSlider() {
                     {event.date}
                   </p>
                   <Button size="lg" className="mt-8 text-lg font-bold">
-                    Book Your Spot
+                    Reserve seu Lugar
                   </Button>
                 </div>
               </div>
