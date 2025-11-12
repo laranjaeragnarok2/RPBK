@@ -15,11 +15,11 @@ export default function Home() {
       <main className="flex-1">
         <HeroSlider />
         <div className="container mx-auto px-4">
-          <section id="about" className="py-16 md:py-24">
-            <AboutUs />
-          </section>
-          <section className="border-t py-16 md:py-24">
+          <section className="py-16 md:py-24">
             <FeaturedEventCountdown />
+          </section>
+          <section id="about" className="border-t py-16 md:py-24">
+            <AboutUs />
           </section>
           <section className="border-t py-16 md:py-24">
             <BarProducts />
