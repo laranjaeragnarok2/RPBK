@@ -3,7 +3,7 @@
     {
       "id": "hero-1",
       "description": "Interior de um bar rústico com banquetas e letreiros de neon.",
-      "imageUrl": "https://storage.googleapis.com/stately-smile-334316-prod/app_protopyer_uploads/36e053f3-018f-43b8-80f4-90518335439c.jpg",
+      "imageUrl": "https://images.pexels.com/photos/2835547/pexels-photo-2835547.jpeg",
       "imageHint": "rustic bar"
     },
     {
@@ -69,7 +69,7 @@
     {
       "id": "gallery-4",
       "description": "Arte de rua vibrante em grafite iluminada por um poste à noite",
-      "imageUrl": "https://images.unsplash.com/photo-1487452066049-a710f7296400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJlZXQlMjBhcnR8ZW58MHx8fHwxNzYyOTIxNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1487452066049-a710f7296400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJlZXQlMjBhcnR8ZW58MHx8fHwxNzYyOTIxNjgwfDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "street art"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "product-3",
       "description": "Uma porção de petiscos de bar, como batatas fritas e anéis de cebola.",
-      "imageUrl": "https://images.unsplash.com/photo-1606756790139-939d899BC152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXIlMjBzbmFja3N8ZW58MHx8fHwxNzYzMDczNDI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1606756790139-939d899BC152?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYXIlMjBzbmFja3N8ZW58MHx8fHwxNzYzMDczNDI4fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "bar snacks"
     },
     {
