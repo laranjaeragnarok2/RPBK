@@ -18,14 +18,14 @@ export default function Home() {
           <section className="py-16 md:py-24">
             <FeaturedEventCountdown />
           </section>
+          <section id="rules" className="border-t py-16 md:py-24">
+            <HouseRules />
+          </section>
           <section id="about" className="border-t py-16 md:py-24">
             <AboutUs />
           </section>
           <section className="border-t py-16 md:py-24">
             <BarProducts />
-          </section>
-          <section className="border-t py-16 md:py-24">
-            <HouseRules />
           </section>
           <section id="social" className="border-t py-16 md:py-24">
             <SocialFeed />
