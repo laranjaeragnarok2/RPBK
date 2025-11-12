@@ -5,6 +5,7 @@ import { FeaturedEventCountdown } from '@/components/events/countdown';
 import { SocialFeed } from '@/components/social/social-feed';
 import { ImageGallery } from '@/components/gallery/image-gallery';
 import { BarProducts } from '@/components/products/bar-products';
+import { HouseRules } from '@/components/layout/house-rules';
 
 export default function Home() {
   const futureDate = new Date();
@@ -21,6 +22,9 @@ export default function Home() {
           </section>
           <section className="border-t py-16 md:py-24">
             <BarProducts />
+          </section>
+          <section className="border-t py-16 md:py-24">
+            <HouseRules />
           </section>
           <section className="border-t py-16 md:py-24">
             <SocialFeed />

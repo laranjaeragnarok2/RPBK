@@ -2,12 +2,11 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 
 const Logo = () => (
-    <div className="flex flex-col items-center font-headline leading-none">
-        <div className="text-xl font-bold tracking-widest text-primary neon-primary">REPUBLIKA</div>
-        <div className="text-xs font-normal tracking-[0.4em]">BAR</div>
-    </div>
-)
-
+  <div className="flex flex-col items-center font-headline leading-none">
+    <div className="text-xl font-bold tracking-widest text-primary neon-primary">REPUBLIKA</div>
+    <div className="text-xs font-normal tracking-[0.4em]">BAR</div>
+  </div>
+);
 
 export function Header() {
   return (
@@ -24,6 +23,12 @@ export function Header() {
             Eventos
           </Link>
           <Link
+            href="#rules"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+          >
+            Regras
+          </Link>
+          <Link
             href="#social"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
@@ -37,7 +42,7 @@ export function Header() {
           </Link>
         </nav>
         <div className="ml-auto flex items-center gap-2">
-           <Button>Entrar em contato</Button>
+          <Button>Entrar em contato</Button>
         </div>
       </div>
     </header>
