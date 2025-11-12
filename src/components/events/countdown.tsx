@@ -43,7 +43,7 @@ export function FeaturedEventCountdown({ targetDate }: { targetDate: Date }) {
 
   return (
     <div className="w-full max-w-4xl mx-auto text-center">
-      <h2 className="font-headline text-3xl md:text-4xl font-bold mb-2">Evento em Destaque: SONHOS DE NEON</h2>
+      <h2 className="font-headline text-3xl md:text-4xl font-bold mb-2">Próximo Evento: SONHOS DE NEON</h2>
       <p className="text-lg text-muted-foreground mb-8">A contagem regressiva começou. Não perca a festa do ano!</p>
       <div className="flex justify-center gap-4 md:gap-8">
         {timeLeft ? (
