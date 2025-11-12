@@ -19,6 +19,18 @@
       "imageHint": "cocktail bar"
     },
     {
+      "id": "hero-4",
+      "imageUrl": "https://images.unsplash.com/photo-1516999654410-4925a65c9533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwY2x1YnxlbnwwfHx8fDE3NjMwMDYxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Dancers in a vast, atmospheric industrial warehouse club with moody lighting.",
+      "imageHint": "industrial club"
+    },
+    {
+      "id": "hero-5",
+      "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHBhcnR5fGVufDB8fHx8MTc2MzAwNjE4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "People dancing on a beach at sunset with a DJ booth.",
+      "imageHint": "beach party"
+    },
+    {
       "id": "social-1",
       "description": "Group of friends taking a selfie at a packed party",
       "imageUrl": "https://images.unsplash.com/photo-1758272133926-84c0a313efc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMHNlbGZpZXxlbnwwfHx8fDE3NjI5NTUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",

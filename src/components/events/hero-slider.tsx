@@ -25,10 +25,30 @@ const events = [
     image: heroImages.find(i => i.id === 'hero-2'),
   },
   {
+    title: 'Warehouse Echoes: Deep House Night',
+    date: 'Saturday, September 7, 2024',
+    image: {
+      id: 'hero-4',
+      imageUrl: 'https://images.unsplash.com/photo-1516999654410-4925a65c9533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwY2x1YnxlbnwwfHx8fDE3NjMwMDYxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      description: 'Dancers in a vast, atmospheric industrial warehouse club with moody lighting.',
+      imageHint: 'industrial club'
+    }
+  },
+  {
     title: 'Liquid Gold: Cocktail Festival',
     date: 'Sunday, September 1, 2024',
     image: heroImages.find(i => i.id === 'hero-3'),
   },
+  {
+    title: 'Sunset Grooves: Beach Party',
+    date: 'Saturday, September 14, 2024',
+    image: {
+      id: 'hero-5',
+      imageUrl: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHBhcnR5fGVufDB8fHx8MTc2MzAwNjE4Nnww&ixlib=rb-4.1.0&q=80&w=1080',
+      description: 'People dancing on a beach at sunset with a DJ booth.',
+      imageHint: 'beach party'
+    }
+  }
 ];
 
 export function HeroSlider() {
