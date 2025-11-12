@@ -4,9 +4,9 @@ import { HeroSlider } from '@/components/events/hero-slider';
 import { FeaturedEventCountdown } from '@/components/events/countdown';
 import { SocialFeed } from '@/components/social/social-feed';
 import { ImageGallery } from '@/components/gallery/image-gallery';
+import { BarProducts } from '@/components/products/bar-products';
 
 export default function Home() {
-  // Set a future date for the countdown
   const futureDate = new Date();
   futureDate.setDate(futureDate.getDate() + 30);
 
@@ -18,6 +18,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <section className="py-16 md:py-24">
             <FeaturedEventCountdown targetDate={futureDate} />
+          </section>
+          <section className="border-t py-16 md:py-24">
+            <BarProducts />
           </section>
           <section className="border-t py-16 md:py-24">
             <SocialFeed />

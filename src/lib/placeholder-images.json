@@ -2,105 +2,123 @@
   "placeholderImages": [
     {
       "id": "hero-1",
-      "description": "DJ at a crowded concert with vibrant lights",
+      "description": "DJ em um show lotado com luzes vibrantes",
       "imageUrl": "https://images.unsplash.com/photo-1698153782147-07bb858d5232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb25jZXJ0JTIwZGp8ZW58MHx8fHwxNzYyOTU1MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "concert dj"
     },
     {
       "id": "hero-2",
-      "description": "People dancing energetically in a dark club",
+      "description": "Pessoas dançando animadamente em uma boate escura",
       "imageUrl": "https://images.unsplash.com/photo-1623098148028-575e32176911?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjbHViJTIwZGFuY2V8ZW58MHx8fHwxNzYyOTU1MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "club dance"
     },
     {
       "id": "hero-3",
-      "description": "Bartender crafting a glowing cocktail at a high-end bar",
+      "description": "Bartender preparando um coquetel brilhante em um bar sofisticado",
       "imageUrl": "https://images.unsplash.com/photo-1615887026505-00283cf0ff83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29ja3RhaWwlMjBiYXJ8ZW58MHx8fHwxNzYyODc0MDUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cocktail bar"
     },
     {
       "id": "hero-4",
       "imageUrl": "https://images.unsplash.com/photo-1516999654410-4925a65c9533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwY2x1YnxlbnwwfHx8fDE3NjMwMDYxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "Dancers in a vast, atmospheric industrial warehouse club with moody lighting.",
+      "description": "Dançarinos em um vasto e atmosférico clube de armazém industrial com iluminação temperamental.",
       "imageHint": "industrial club"
     },
     {
       "id": "hero-5",
       "imageUrl": "https://images.unsplash.com/photo-1519046904884-53103b34b206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHBhcnR5fGVufDB8fHx8MTc2MzAwNjE4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "description": "People dancing on a beach at sunset with a DJ booth.",
+      "description": "Pessoas dançando em uma praia ao pôr do sol com uma cabine de DJ.",
       "imageHint": "beach party"
     },
     {
       "id": "social-1",
-      "description": "Group of friends taking a selfie at a packed party",
+      "description": "Grupo de amigos tirando uma selfie em uma festa lotada",
       "imageUrl": "https://images.unsplash.com/photo-1758272133926-84c0a313efc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMHNlbGZpZXxlbnwwfHx8fDE3NjI5NTUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "party selfie"
     },
     {
       "id": "social-2",
-      "description": "A live band performing on a brightly lit stage",
+      "description": "Uma banda ao vivo se apresentando em um palco bem iluminado",
       "imageUrl": "https://images.unsplash.com/photo-1499364615650-ec38552f4f34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaXZlJTIwYmFuZHxlbnwwfHx8fDE3NjI5NTUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "live band"
     },
     {
       "id": "social-3",
-      "description": "Artfully presented gourmet food at a nightlife event",
+      "description": "Comida gourmet artisticamente apresentada em um evento noturno",
       "imageUrl": "https://images.unsplash.com/photo-1560492474-b4f06aeb7553?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxldmVudCUyMGZvb2R8ZW58MHx8fHwxNzYyOTU1MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "event food"
     },
     {
       "id": "gallery-1",
-      "description": "Abstract trails of neon lights in the dark",
+      "description": "Rastros abstratos de luzes de neon no escuro",
       "imageUrl": "https://images.unsplash.com/photo-1534823983341-d4e6e4aa046c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuZW9uJTIwbGlnaHRzfGVufDB8fHx8MTc2Mjk1NTAzOHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "neon lights"
     },
     {
       "id": "gallery-2",
-      "description": "A stylish rooftop bar overlooking a city skyline at night",
+      "description": "Um bar elegante na cobertura com vista para o horizonte da cidade à noite",
       "imageUrl": "https://images.unsplash.com/photo-1485872299829-c673f5194813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyb29mdG9wJTIwYmFyfGVufDB8fHx8MTc2Mjg0MjUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "rooftop bar"
     },
     {
       "id": "gallery-3",
-      "description": "A close-up shot of a DJ's turntable with a vinyl record spinning",
+      "description": "Uma foto em close do toca-discos de um DJ com um disco de vinil girando",
       "imageUrl": "https://images.unsplash.com/photo-1616714109948-c74fe5029a4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW55bCUyMHJlY29yZHxlbnwwfHx8fDE3NjI4OTM3MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "vinyl record"
     },
     {
       "id": "gallery-4",
-      "description": "Vibrant graffiti street art illuminated by a streetlight at night",
+      "description": "Arte de rua vibrante em grafite iluminada por um poste à noite",
       "imageUrl": "https://images.unsplash.com/photo-1487452066049-a710f7296400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJlZXQlMjBhcnR8ZW58MHx8fHwxNzYyOTIxNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "street art"
     },
     {
       "id": "gallery-5",
-      "description": "A large crowd of people enjoying an outdoor music festival at dusk",
+      "description": "Uma grande multidão de pessoas aproveitando um festival de música ao ar livre ao entardecer",
       "imageUrl": "https://images.unsplash.com/photo-1638132704781-d1bdc0f43a6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvdXRkb29yJTIwZmVzdGl2YWx8ZW58MHx8fHwxNzYyOTM2NDY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "outdoor festival"
     },
     {
       "id": "gallery-6",
-      "description": "A fashionably dressed person posing under the neon lights of a club",
+      "description": "Uma pessoa vestida na moda posando sob as luzes de neon de uma boate",
       "imageUrl": "https://images.unsplash.com/photo-1649314988950-cbbb20ec4465?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjbHViJTIwZmFzaGlvbnxlbnwwfHx8fDE3NjI5NTUwMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "club fashion"
     },
     {
       "id": "avatar-1",
-      "description": "Portrait of a smiling woman with curly hair",
-      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2Mjg4ODYyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Retrato de uma mulher sorridente com cabelo cacheado",
+      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8fDE3NjI4ODg2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
       "id": "avatar-2",
-      "description": "Portrait of a man with sunglasses and a beard",
+      "description": "Retrato de um homem com óculos de sol e barba",
       "imageUrl": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI5NTI2MDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "man portrait"
     },
     {
       "id": "avatar-3",
-      "description": "Headshot of a person with short, colorful hair",
+      "description": "Foto de rosto de uma pessoa com cabelo curto e colorido",
       "imageUrl": "https://images.unsplash.com/photo-1531123414780-f74242c2b052?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGVyc29uJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzYyOTM1OTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "person portrait"
+    },
+    {
+      "id": "product-1",
+      "description": "Um coquetel colorido e fumegante em um copo elegante.",
+      "imageUrl": "https://images.unsplash.com/photo-1551024709-8f23eda2c5a5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "fancy cocktail"
+    },
+    {
+      "id": "product-2",
+      "description": "Uma caneca de cerveja artesanal gelada com um fundo de bar.",
+      "imageUrl": "https://images.unsplash.com/photo-1588791360158-a5de4c8397a2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "craft beer"
+    },
+    {
+      "id": "product-3",
+      "description": "Uma porção de petiscos de bar, como batatas fritas e anéis de cebola.",
+      "imageUrl": "https://images.unsplash.com/photo-1606756790139-939d899BC152?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "bar snacks"
     }
   ]
 }
