@@ -10,11 +10,11 @@ export function AboutUs() {
       <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <div className="order-2 md:order-1">
           <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">
-            Nossa <span className="text-primary neon-primary">História</span>
+            Quem <span className="text-primary neon-primary">Somos</span>
           </h2>
           <div className="space-y-4 text-muted-foreground">
             <p>
-              Nascido da paixão pela vida noturna e do desejo de criar um espaço único em Goiânia, o Republika Bar é mais do que apenas um bar - é um ponto de encontro para amigos, amantes de música e todos que procuram uma experiência inesquecível.
+              Nascido da paixão pela vida noturna e do desejo de criar um espaço único em Rio Verde, Goiás, o Republika Bar é mais do que apenas um bar - é um ponto de encontro para amigos, amantes de música e todos que procuram uma experiência inesquecível.
             </p>
             <p>
               Nossa missão é simples: oferecer noites memoráveis com os melhores DJs da cena, coquetéis artesanais que surpreendem o paladar e um ambiente onde todos se sintam bem-vindos. Do deep house ao techno, nossa curadoria musical é pensada para criar a trilha sonora perfeita para a sua noite.

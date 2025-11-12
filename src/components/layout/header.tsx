@@ -25,12 +25,6 @@ export function Header() {
             Eventos
           </Link>
           <Link
-            href="#about"
-            className="text-muted-foreground transition-colors hover:text-foreground"
-          >
-            Quem Somos
-          </Link>
-          <Link
             href="#rules"
             className="text-muted-foreground transition-colors hover:text-foreground"
           >
