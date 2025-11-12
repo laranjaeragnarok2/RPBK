@@ -9,7 +9,8 @@ const CountdownItem = ({ value, label }: { value: number; label: string }) => (
   </div>
 );
 
-export function FeaturedEventCountdown({ targetDate }: { targetDate: Date }) {
+export function FeaturedEventCountdown() {
+  const [targetDate, setTargetDate] = useState<Date | null>(null);
   const [timeLeft, setTimeLeft] = useState<{
     days: number;
     hours: number;
@@ -18,6 +19,14 @@ export function FeaturedEventCountdown({ targetDate }: { targetDate: Date }) {
   } | null>(null);
 
   useEffect(() => {
+    const futureDate = new Date();
+    futureDate.setDate(futureDate.getDate() + 30);
+    setTargetDate(futureDate);
+  }, []);
+
+  useEffect(() => {
+    if (!targetDate) return;
+
     const calculateTimeLeft = () => {
       const difference = +targetDate - +new Date();
       if (difference > 0) {
@@ -31,7 +40,6 @@ export function FeaturedEventCountdown({ targetDate }: { targetDate: Date }) {
       return { days: 0, hours: 0, minutes: 0, seconds: 0 };
     };
 
-    // Set initial time on client to avoid hydration mismatch
     setTimeLeft(calculateTimeLeft());
 
     const timer = setInterval(() => {

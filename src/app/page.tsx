@@ -9,9 +9,6 @@ import { HouseRules } from '@/components/layout/house-rules';
 import { AboutUs } from '@/components/layout/about-us';
 
 export default function Home() {
-  const futureDate = new Date();
-  futureDate.setDate(futureDate.getDate() + 30);
-
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <Header />
@@ -22,7 +19,7 @@ export default function Home() {
             <AboutUs />
           </section>
           <section className="border-t py-16 md:py-24">
-            <FeaturedEventCountdown targetDate={futureDate} />
+            <FeaturedEventCountdown />
           </section>
           <section className="border-t py-16 md:py-24">
             <BarProducts />
@@ -30,7 +27,7 @@ export default function Home() {
           <section className="border-t py-16 md:py-24">
             <HouseRules />
           </section>
-          <section className="border-t py-16 md:py-24">
+          <section id="social" className="border-t py-16 md:py-24">
             <SocialFeed />
           </section>
           <section className="border-t py-16 md:py-24">
