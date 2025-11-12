@@ -15,7 +15,7 @@ const heroImages = PlaceHolderImages.filter((img) => img.id.startsWith('hero-'))
 
 const events = [
   {
-    title: 'Sonhos de Neon: A Rave Suprema',
+    title: 'Sextou Reverso',
     date: 'Sábado, 17 de Agosto de 2024',
     image: heroImages.find(i => i.id === 'hero-1'),
   },
