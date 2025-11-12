@@ -7,14 +7,17 @@ const productImages = PlaceHolderImages.filter((img) => img.id.startsWith('produ
 const products = [
   {
     name: 'Coquetel Espectral',
+    price: 'R$ 29,90',
     image: productImages.find(i => i.id === 'product-1'),
   },
   {
     name: 'Cerveja Artesanal Pulsar',
+    price: 'R$ 19,90',
     image: productImages.find(i => i.id === 'product-2'),
   },
   {
     name: 'Petiscos da Noite',
+    price: 'R$ 39,90',
     image: productImages.find(i => i.id === 'product-3'),
   }
 ];
@@ -40,9 +43,12 @@ export function BarProducts() {
                   />
               </div>
             )}
-            <CardHeader>
+            <CardHeader className="pb-2">
                 <CardTitle className="text-center text-xl">{product.name}</CardTitle>
             </CardHeader>
+            <CardContent>
+              <p className="text-center text-lg font-bold text-primary neon-primary">{product.price}</p>
+            </CardContent>
           </Card>
         ))}
       </div>
