@@ -27,12 +27,7 @@ const events = [
   {
     title: 'Ecos do Armazém: Noite de Deep House',
     date: 'Sábado, 7 de Setembro de 2024',
-    image: {
-      id: 'hero-4',
-      imageUrl: 'https://images.unsplash.com/photo-1516999654410-4925a65c9533?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmR1c3RyaWFsJTIwY2x1YnxlbnwwfHx8fDE3NjMwMDYxNTV8MA&ixlib=rb-4.1.0&q=80&w=1080',
-      description: 'Dançarinos em um vasto e atmosférico clube de armazém industrial com iluminação temperamental.',
-      imageHint: 'industrial club'
-    }
+    image: heroImages.find(i => i.id === 'hero-4'),
   },
   {
     title: 'Ouro Líquido: Festival de Coquetéis',
@@ -42,12 +37,7 @@ const events = [
   {
     title: 'Ritmos do Pôr do Sol: Festa na Praia',
     date: 'Sábado, 14 de Setembro de 2024',
-    image: {
-      id: 'hero-5',
-      imageUrl: 'https://images.unsplash.com/photo-1519046904884-53103b34b206?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZWFjaCUyMHBhcnR5fGVufDB8fHx8MTc2MzAwNjE4Nnww&ixlib=rb-4.1.0&q=80&w=1080',
-      description: 'Pessoas dançando em uma praia ao pôr do sol com uma cabine de DJ.',
-      imageHint: 'beach party'
-    }
+    image: heroImages.find(i => i.id === 'hero-5'),
   }
 ];
 
