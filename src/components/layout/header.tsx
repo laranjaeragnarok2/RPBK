@@ -37,7 +37,7 @@ export function Header() {
           </Link>
         </nav>
         <div className="ml-auto flex items-center gap-2">
-           <Button>Comprar Ingressos</Button>
+           <Button>Entrar em contato</Button>
         </div>
       </div>
     </header>
